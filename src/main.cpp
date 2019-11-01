@@ -4,7 +4,7 @@
 #ifndef TEST
 int main() {
     printf("Rule Breaker!!!\n");
-    printf("4 + 2 = %d\n", addNumber(4, 2));
+    printf("4 + 3 = %d\n", addNumber(4, 3));
     printf("%d\n", getTriangleType(3, 4, 5));
     return 0;
 }

@@ -4,7 +4,7 @@
 #ifndef TEST
 int main() {
     printf("Rule Breaker!!!\n");
-    printf("5 + 2 = %d\n", addNumber(5, 2));
+    printf("4 + 2 = %d\n", addNumber(4, 2));
     printf("%d\n", getTriangleType(3, 4, 5));
     return 0;
 }
@@ -15,6 +15,7 @@ int addNumber(int a, int b) {
 }
 
 int getTriangleType(int a, int b, int c) {
+    // 註解註解註解
     if (a > b && a > c) {
         int temp = c; c = a; a = temp;
     }

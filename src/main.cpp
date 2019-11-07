@@ -15,7 +15,7 @@ int addNumber(int a, int b) {
 }
 
 int getTriangleType(int a, int b, int c) {
-    // 註解註解123
+    // 註解註解asd
     if (a > b && a > c) {
         int temp = c; c = a; a = temp;
     }
